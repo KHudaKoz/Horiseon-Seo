@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <!-- (ASI) = Accessabilitye Standards Improvement of HTML Structure -->
+    <!-- Changes For Accessibility Standards Improvement to Existing HTML Structure Start Here-->
     <header>
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
-            <!--Anchor Eliments-->
+            <!--anchor elements-->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -28,27 +28,28 @@
         </div>
     </div>
 </header>
-    <!--Hero/Jumbotron Section-->
-      <Section class="hero" Title="Company Conference Room with Team Discusing Your Success">
-        </Section>
+    <!--hero/jumbotron section starts here-->
+      <Section class="hero" Title="Company Conference Room with Team Horiseon Discusing Your Companies Success"> </Section>
+       
    
-    <!--Three Blue Box  -->
+    <!-- main service section starts here-->
+    <!-- Changed div to artical and rename old class to "main services".  It allowed the old css to be consolidated. -->
         <section class="content">
-        <article class="search-engine-optimization">
+        <article id="search-engine-optimization" class="main-services">
             <img src="./assets/images/search-engine-optimization.jpg" Alt="A spiral notebook, on a table, with the word SEO written on the cover" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-        <article id="online-reputation-management" class="online-reputation-management">
+        <article id="online-reputation-management" class="main-services">
             <img src="./assets/images/online-reputation-management.jpg" Alt="A person looking down at open laptop with bar graph  "class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article id="social-media-marketing" class="social-media-marketing">
+        <article id="social-media-marketing" class="main-services">
             <img src="./assets/images/social-media-marketing.jpg" Alt="Overhead veiw of social media icons, on a table, with hands along the edge" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -56,23 +57,24 @@
             </p>
         </article>
     </section>
-    <!-- Vertical Benifits-->
+    <!-- benifits section starts here -->
+    <!-- The renaming of div class to indiv-benefits.  Change allowed the old css to be consolidated.-->
     <section class="benefits">
-        <div class="benefit-lead">
+        <div class="indiv-benefits">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="indiv-benefits">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt=""/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="indiv-benefits">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="" />
             <p>
@@ -81,11 +83,12 @@
         </div>
     </div>
 </section>
+<!-- footer starts here-->
     <footer>
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
-           2019 Horiseon Social Solution Services, Inc.
+            &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </div>
     </footer>
