@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
- /* header styles section starts here */
+ /* header styles section starts here <header>*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -53,7 +53,7 @@ p {
     font-size: 16px;
 }
 
-/*  hero/jumbotron styl section starts here */
+/*  hero/jumbotron style section starts here */
 .hero {
     height: 800px;
     width: 100%;

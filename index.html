@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <!-- Changes For Accessibility Standards Improvement to Existing HTML Structure Start Here-->
+    <!-- Changed HTML samantic elements for the purpose of Accessibility Standards Improvement (ASI) -->
     <header>
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
@@ -28,12 +28,15 @@
         </div>
     </div>
 </header>
-    <!--hero/jumbotron section starts here-->
+    <!-- hero/jumbotron section begins here -->
+    <!-- Change <div> to <section> and added a title attribute to hero background image for (ASI) purposes -->
       <Section class="hero" Title="Company Conference Room with Team Horiseon Discusing Your Companies Success"> </Section>
        
    
-    <!-- main service section starts here-->
-    <!-- Changed div to artical and rename old class to "main services".  It allowed the old css to be consolidated. -->
+    <!-- Main service section begins here. -->
+    <!-- Changed <div> to <article> and renamed old class attribute to "main services".  It allowed existing css to be refracted and consolidated. -->
+    <!-- added id attribute to the first article tag to match a href attribute so link would function correctly-->
+    <!-- added Alt discription for each image for (ASI) -->
         <section class="content">
         <article id="search-engine-optimization" class="main-services">
             <img src="./assets/images/search-engine-optimization.jpg" Alt="A spiral notebook, on a table, with the word SEO written on the cover" class="float-left" />
@@ -57,8 +60,9 @@
             </p>
         </article>
     </section>
-    <!-- benifits section starts here -->
-    <!-- The renaming of div class to indiv-benefits.  Change allowed the old css to be consolidated.-->
+    <!-- benifits section begins here -->
+    <!-- changed <div> element to <section> element for the purpose (ASI)-->
+    <!-- The renaming of div class attribute to indiv-benefits.  Change allowed existing css to be refracted and consolidated.-->
     <section class="benefits">
         <div class="indiv-benefits">
             <h3>Lead Generation</h3>
@@ -83,7 +87,8 @@
         </div>
     </div>
 </section>
-<!-- footer starts here-->
+<!-- footer begins here-->
+<!-- changed <div> element to <footer> element for the purpose of (ASI)-->
     <footer>
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
