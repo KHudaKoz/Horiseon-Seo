@@ -18,11 +18,11 @@
 ​
 ## How to View Website and Repository
 ​
-To veiw the deployed website and repository click on the following links below:
+To veiw Horiseon's deployed website or the repository containing deployed websites files use the links below:
 
-*For Github Repository [Horiseon-Seo Repository](https://github.com/KHudaKoz/Horiseon-Seo) 
+* For Github Repository [Horiseon-Seo Repository](https://github.com/KHudaKoz/Horiseon-Seo) 
 ​
- For Live Deployed Site [Horiseon-Seo Deployed](https://khudakoz.github.io/Horiseon-Seo/).
+* For Live Deployed Site [Horiseon-Seo Deployed](https://khudakoz.github.io/Horiseon-Seo/).
 ​
 ​
 ## Table of Contents (Optional)
