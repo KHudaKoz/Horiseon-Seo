@@ -1,4 +1,4 @@
-# Horiseon - SEO, Accessibility standards, and Code Refractions
+# Horiseon - SEO, Accessibility Standards, and Code Refractions Work Order
 
 ## Description of Repository
 ​
@@ -13,8 +13,14 @@
 ## The Problem With The Original Code Base.
  The codebase presented was heavily riddle with class for form and reliant on a css.style sheet for styling and positioning.
 
-## 
+## How It Was Fixed
 
+In order to meet the demands of the clients, the exist code base was analyzed for HTML semantic elements.  After discovering the basic structure was designed with div element and class attributes, semantic html structure was deployed.  For example, certain div elements were convert in it semantic elements in the following order BODY, HEAD, HEADER, SECTIONS 1/HERO, SECTION 2/MAIN SERVICE, SECTION 3/BENEFITS, and FOOTER.  
+Each individual change is annotated within the HTML CODE.    
+
+## What I learned
+
+There are always opportunities to refract and consolidate code, and do be affair to rename attribute and classes. 
 ​
 ## How to View Website and Repository
 ​
